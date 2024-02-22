@@ -1,0 +1,42 @@
+.container-kurses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em
+}
+
+.kurses {
+    max-width: 40%;
+    display: flex;
+    border: 2px solid #106410;
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    gap: 1em;
+    margin: 0 auto ;
+}
+
+.data-kurs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.kurses h3 {
+    padding-bottom: 1em;
+}
+
+.kurses img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.data-kurs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.right-container,
+.left-container {
+    width: 50%;
+}
+
