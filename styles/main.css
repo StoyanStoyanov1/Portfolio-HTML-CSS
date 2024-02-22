@@ -1,0 +1,42 @@
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    padding-top: 4em;
+    justify-content: space-around;
+}
+
+.container-kenntnisse {
+    display: flex;
+    gap: 6em
+}
+
+.django {
+    width: 25px;
+}
+
+.fühigkeiten i {
+    color: #106410;
+}
+
+.sprache ul {
+    list-style-type: none;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+
+.fühigkeiten ul {
+    list-style-type: none;
+    line-height: 2.5;
+}
+
+.persönliche-daten ul {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.persönliche-daten ul a {
+    color: #106410;
+}
