@@ -1,0 +1,55 @@
+@media (max-width: 800px) {
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .container-kenntnisse {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .persönliche-daten {
+        padding-top: 3em;
+    }
+
+    .sprache {
+        margin: 0 auto;
+    }
+
+   p {
+        margin: 0 auto;
+    }
+
+   .kurses {
+       max-width: 80%;
+       margin: 0 auto;
+       flex-direction: column;
+   }
+
+   .container-kurses {
+       flex-direction: column;
+   }
+
+   .left-container,
+   .right-container {
+       width: 100%;
+   }
+
+   .data-kurs {
+       text-align: center;
+   }
+}
