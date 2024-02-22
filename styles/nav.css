@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1em;
+    background: linear-gradient(90deg, rgb(26, 75, 0) 0%, rgb(25, 169, 3) 0%, rgb(3, 204, 58) 27%, rgba(53,227,64,1) 58%, rgba(141,246,87,1) 93%);
+
+}
+
+nav a {
+    text-decoration: none;
+    border: 1px solid #3bf831;
+    background: #f5f5f5;
+    padding: 1em 2em;
+    border-radius: 50%;
+    color: #000000;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background: #66ef66;
+    color: #fFF;
+}
