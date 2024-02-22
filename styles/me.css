@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "nav.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "kurses.css";
+@import "berufserfahrungen.css";
+
+html {
+    font-family: Arial, sans-serif ;
+}
+
